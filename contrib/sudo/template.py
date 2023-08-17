@@ -10,6 +10,7 @@ configure_args = [
     "--with-passprompt",
     "--without-pam",
 ]
+make_dir = "build"
 pkgdesc = "Allows a system administrator to delegate authority"
 maintainer = "Erjo <erjo@cocoba.work>"
 license = "ISC"
