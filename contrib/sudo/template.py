@@ -12,7 +12,7 @@ configure_args = [
 ]
 pkgdesc = "Allows a system administrator to delegate authority"
 maintainer = "Erjo <erjo@cocoba.work>"
-license = "ISC-license-style"
+license = "ISC"
 url = "https://www.sudo.ws"
 source = f"https://www.sudo.ws/dist/{pkgname}-{pkgver}.tar.gz"
 sha256 = "a08318b1c4bc8582c004d4cd9ae2903abc549e7e46ba815e41fe81d1c0782b62"
