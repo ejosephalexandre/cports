@@ -18,13 +18,6 @@ url = "https://www.sudo.ws"
 source = f"https://www.sudo.ws/dist/{pkgname}-{pkgver}.tar.gz"
 sha256 = "a08318b1c4bc8582c004d4cd9ae2903abc549e7e46ba815e41fe81d1c0782b62"
 
+configure_gen = []
 
-def do_configure(self):
-    pass
-
-def do_build(self):
-    pass
-
-def do_install(self):
-    pass
 
