@@ -7,7 +7,6 @@ configure_args = [
     "--with-secure-path",
     "--with-all-insults",
     "--with-env-editor",
-    "--with-passprompt",
     "--without-pam",
 ]
 make_dir = "build"
