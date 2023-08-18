@@ -4,7 +4,10 @@ pkgrel = 0
 build_style = "gnu_configure"
 configure_args = [
 ]
-hostmakedepends = ["linux-headers"]
+hostmakedepends = ["linux-headers",
+    "openssl-devel",
+    "zlib-devel"
+]
 pkgdesc = "High Performance TCP/HTTP Load Balancer"
 maintainer = "Erjo <erjo@cocoba.work>"
 license = "GPL-2.0-or-later"
