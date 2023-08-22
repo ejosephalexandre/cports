@@ -10,7 +10,8 @@ make_build_args = [
     "USE_LUA=1",
     "USE_PCRE2=1"
 ]
-makedepends = [ "gmake",
+makedepends = [ 
+    "gmake",
     "lua5.4-devel",
     "clang",
     "linux-headers",
