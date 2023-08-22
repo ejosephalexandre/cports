@@ -10,12 +10,13 @@ make_build_args = [
     "USE_LUA=1",
     "USE_PCRE2=1"
 ]
-hostmakedepends = [
+makedepends = [ "gmake",
+    "lua5.4-devel",
     "clang",
     "linux-headers",
+    "pcre2-devel",
     "openssl-devel",
     "zlib-devel",
-    "lua5.4-devel"
 ]
 pkgdesc = "High Performance TCP/HTTP Load Balancer"
 maintainer = "Erjo <erjo@cocoba.work>"
