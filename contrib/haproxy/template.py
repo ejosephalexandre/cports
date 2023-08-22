@@ -26,6 +26,6 @@ url = "https://www.haproxy.org"
 source = f"{url}/download/2.8/src/{pkgname}-{pkgver}.tar.gz"
 sha256 = "698d6906d170946a869769964e57816ba3da3adf61ff75e89972b137f4658db0"
 
-def init_build(self):
-    self.tool_flags["LD"] = self.tool_flags["CC"]
+#self init_build(self):
+#    self.tool_flags["LD"] = self.tool_flags["CC"]
 
